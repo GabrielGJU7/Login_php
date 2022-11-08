@@ -41,7 +41,7 @@
             <div class="flex justify-between p-4">
                 <div>
                     <h1 class="text-xs uppercase text-gray-500 mb-3">IDMEX-1026-PEUI840212-DIR00200</h1>
-                    <h1 class="text-sm text-yellow-500 uppercase">PackPlus</h1>
+                    <h1 class="text-sm text-yellow-500 uppercase">PACKPLUS</h1>
                 </div>
                 <div>
                     <h1 class='text-sm text-sky-500 py-1 px-2 mt-6 uppercase'>Ishaveha Centro</h1>
