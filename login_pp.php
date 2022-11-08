@@ -37,30 +37,30 @@
         <hr class="border-gray-400">
       </div>
 
-      <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+      <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 item-center justify-center">
       <div class="space-x-2 flex text-sm">
         <label>
           <input class="sr-only peer" name="size" type="radio" value="xs" />
-          <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" alt="">
+          <div class="w-5 h-5 rounded-lg flex items-center justify-center text-slate-700">
+            <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="">
           </div>
         </label>
         <label>
           <input class="sr-only peer" name="size" type="radio" value="s" />
-          <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="">
+          <div class="w-5 h-5 rounded-full flex items-center justify-center text-slate-700">
+            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="">
           </div>
         </label>
         <label>
           <input class="sr-only peer" name="size" type="radio" value="m" />
-          <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700">
-            <img src="https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png" alt="">
+          <div class="w-5 h-5 rounded-lg flex items-center justify-center text-slate-700">
+            <img src="https://www.pngplay.com/wp-content/uploads/12/WhatsApp-Logo-PNG-Background.png" alt="">
           </div>
         </label>
         <label>
           <input class="sr-only peer" name="size" type="radio" value="xl" />
-          <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="">
+          <div class="w-5 h-5 rounded-lg flex items-center justify-center text-slate-700">
+            <img src="https://cdn-icons-png.flaticon.com/512/48/48968.png" alt="">
           </div>
         </label>
       </div>
