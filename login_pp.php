@@ -13,31 +13,28 @@
  
   </head>
   <body>
-    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
-  <!-- login container -->
-  <div class="bg-indigo-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
-    <!-- form -->
-    <div class="md:w-1/2 px-8 md:px-16">
-      <h2 class="font-bold text-2xl text-[#002D74]">Pack Plus</h2>
-      <?php
+  <div class="flex min-h-screen items-center justify-center">
+
+
+<div class="min-h-1/2 bg-indigo-100   rounded-2xl">
+
+    <div class="mx-4 sm:mx-24 md:mx-34 lg:mx-56 mx-auto  flex items-center space-y-4 py-16 font-semibold text-gray-500 flex-col">
+        <img src="./img/logo.png" alt="" class="w-32 h-auto">
+
+        <h1 class="font-bold text-2xl text-[#002D74]">PackPlus</h1>
+        <?php
         include 'model/conexion.php';
         include 'Controlador/controlador_login.php';
-      ?>
-      <p class="text-xs mt-4 text-[#002D74]">Si usted cuenta con Pack Plus ingrese su mátricula</p>
-
-      <form method='post' class="flex flex-col gap-4">
-      
-        <input class="p-2 mt-8 rounded-xl border" type="text" name="code" placeholder="Mátricula">
-        <button name='btnIngresar' class="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300" type="submit" value="Ingresar">Ingresar</button>
-      </form>
-
-      <div class="mt-6 grid grid-cols-3 items-center text-gray-400">
-        <hr class="border-gray-400">
-        <p class="text-center text-sm"></p>
-        <hr class="border-gray-400">
-      </div>
-
-      <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 item-center justify-center">
+        ?>
+        <p class="text-xs mt-4 text-[#002D74]">Si usted cuenta con Pack Plus ingrese su mátricula</p>
+        <form method='post' class="flex flex-col gap-4">
+          <input class="w-full p-2  rounded-md   focus:border-blue-700"
+              placeholder="Matricula" type="text" name="code">
+          <button class="w-full p-2  bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300"
+              type="submit" name='btnIngresar' value="Ingresar">Ingresar</button>
+        </form>
+            
+        <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 item-center justify-center">
       <div class="space-x-2 flex text-sm">
         <label>
           <input class="sr-only peer" name="size" type="radio" value="xs" />
@@ -65,19 +62,50 @@
         </label>
       </div>
     </div>
-
       <div class="mt-3 text-center text-xs flex justify-between items-center text-[#002D74]">
-        <p>Derechos Reservados ISHAVEHA Certificadora y Capacitadora Profesional S.A. de C.V.</p>
+          <p>Derechos Reservados ISHAVEHA Certificadora y Capacitadora Profesional S.A. de C.V.</p>
       </div>
     </div>
 
-    <!-- image -->
-    <div class="md:block hidden w-1/2">
-      <img class="rounded-2xl" src="https://i.imgur.com/Y2BqimI.png">
+
+</div>
+
+</div>
+
+    <!-- Modal toggle -->
+
+    <!-- Main modal -->
+    <div id="default-modal" data-modal-show="true" aria-hidden="true" class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
+        <div class="relative w-full max-w-2xl px-4 h-full md:h-auto">
+            <!-- Modal content -->
+            <div class="bg-white rounded-lg shadow relative dark:bg-gray-700">
+                <!-- Modal header -->
+                <div class="flex items-start justify-between p-5 border-b rounded-t dark:border-gray-600">
+                    <h3 class="text-gray-900 text-xl lg:text-2xl font-semibold dark:text-white">
+                        PackPlus
+                    </h3>
+                    <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="default-modal">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-6 space-y-6">
+                    <p class="text-gray-500 text-base leading-relaxed dark:text-gray-400">
+                    "Base de datos para Pack Plus Incluye: Título, Certificado de Formación, ID (cédula laboral), Kardex (tira de materias) y DC3 (constancia STPS)".
+                    </p>
+                    <p class="text-gray-500 text-base leading-relaxed dark:text-gray-400">
+                        
+                    </p>
+                </div>
+                <!-- Modal footer -->
+                <div class="flex space-x-2 items-center p-6 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button data-modal-toggle="default-modal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Aceptar</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
-    {{{body}}}
-    
+</div>
+
+    <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
   </body>
 </html>

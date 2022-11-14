@@ -31,7 +31,7 @@
 <body>
 
     <div class="flex item-center justify-center">
-        <div class="bg-white w-1/3 mt-10 rounded-lg">
+        <div class="bg-white w-2/3 mt-10 rounded-lg">
             <div class="flex items-center justify-center pt-10 flex-col">
                 <img src="https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg" alt="profile" class="rounded-full w-32">
                 <h1 class='text-gray-800 font-semibold text-xl mt-5'>Gabriel Jacobo Ulloa</h1>
@@ -57,9 +57,5 @@
                 </div>
                 
         </div>
-    </div>
-    
-    
-    
 </body>
 </html>
